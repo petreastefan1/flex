@@ -1,0 +1,81 @@
+/* ================================= 
+  Page Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	background-color: #fff;
+	color: black;
+}
+body {
+	font-size: 1.35em;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	background: #e8e9e9;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.container {
+	padding: 10px;
+	background: #fff;
+ 	border-radius: 5px;
+	margin: 45px auto;
+ 	box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+
+}
+.item {
+	color: #fff;
+	padding: 15px;
+	margin: 5px;	
+	background: #3db5da;
+	border-radius: 3px;
+
+}
+.container{
+
+	display: flex;
+
+	flex-direction: row;
+
+	flex-wrap: wrap;
+
+	align-items: center;
+
+	justify-content: space-around;
+
+	flex-grow:
+
+}
+
+/* eu */
+
+.containerr{
+	padding: 10px;
+	background: #fff;
+ 	border-radius: 5px;
+	margin: 45px auto;
+ 	box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+
+	 display: flex;
+
+	 flex-direction: column-reverse;
+
+ 
+	 align-items: center;
+ 
+	 justify-content: space-around;
+ 
+}
+.itemm{
+color: #fff;
+padding: 15px;
+margin: 5px;	
+background: #3db5da;
+border-radius: 3px;
+flex-grow:5
+}
+
+
